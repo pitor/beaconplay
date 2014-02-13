@@ -1,0 +1,11 @@
+
+
+<h2>List of beacons</h2>
+
+<ul>
+<% beacons.forEach( function(cur, ix ) { %>
+<li>MAC:<%= cur.mac %> major: <%= cur.major %> minor:<%= cur.minor%></li>
+<% }); %>
+</ul>
+
+
